@@ -1,0 +1,1 @@
+import refh=open("E:\\url.txt","r")pat = "id=(.*?)&"a=[]for i in fh:    res = re.compile(pat).findall(i)    a.append(res[0])print(a)
